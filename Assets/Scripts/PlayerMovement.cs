@@ -4,58 +4,168 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
-    public CharacterController controller;
+    [Header("Movement")]
+    private float moveSpeed;
+    public float groundDrag;
+    public float sprintSpeed;
+    public float walkSpeed;
 
-    public float speed = 12f;
-    public float sprintMul = 1.5f;
-    public float gravity = -9.81f * 2;
-    public float jumpHeight = 3f;
+    [Header("Jumping")]
+    public float jumpForce;
+    public float jumpCooldown;
+    public float airMultiplier;
+    bool readyToJump =true;
 
-    public Transform groundCheck;
-    public float groundDistance = 0.4f;
-    public LayerMask groundMask;
+    [Header("Crouching")]
+    public float crouchSpeed;
+    public float crouchYScale;
+    private float startYScale;
 
-    Vector3 velocity;
+    [Header("Key Binds")]
+    public KeyCode jumpKey = KeyCode.Space;
+    public KeyCode sprintKey = KeyCode.LeftShift;
+    public KeyCode crouchKey = KeyCode.LeftControl;
 
-    bool isGrounded;
+    [Header("Ground Check")]
+    public float playerHeight;
+    public LayerMask WhatIsGround;
+    bool grounded;
 
-    // Update is called once per frame
-    void Update()
+    
+
+    public Transform orientation;
+    float horizontalInput;
+    float verticalInput;
+
+    Vector3 moveDirection;
+    Rigidbody rb;
+
+    public MovementState state;
+    public enum MovementState
     {
-        //checking if we hit the ground to reset our falling velocity, otherwise we will fall faster the next time
-        isGrounded = Physics.CheckSphere(groundCheck.position, groundDistance, groundMask);
+        walking,
+        sprinting,
+        crouching,
+        air
+    }
 
-        if (isGrounded && velocity.y < 0)
+    private void StateHandler()
+    {
+        if (Input.GetKey(crouchKey))
         {
-            velocity.y = -2f;
+            state = MovementState.crouching;
+            moveSpeed = crouchSpeed;
+        }
+        else if(grounded && Input.GetKey(sprintKey))
+        {
+            state = MovementState.sprinting;
+            moveSpeed = sprintSpeed;
+        }
+        else if(grounded)
+        {
+            state = MovementState.walking;
+            moveSpeed = walkSpeed;
+        }
+        else
+        {
+            state = MovementState.air;
+        }
+    }
+
+    private void Start()
+    {
+        rb = GetComponent<Rigidbody>();
+        rb.freezeRotation = true;
+
+        startYScale = transform.localScale.y;
+    }
+
+    private void Update()
+    {
+        grounded = Physics.Raycast(transform.position, Vector3.down,playerHeight *0.5f +0.2f, WhatIsGround);
+        MyInput();
+        SpeedControl();
+        StateHandler();
+
+        if (grounded)
+        {
+            rb.drag = groundDrag;
+            
+        }
+        else
+        {
+            rb.drag = 0;
+        }
+        
+    }
+
+    private void FixedUpdate()
+    {
+        MoverPlayer();
+    }
+
+    private void MyInput()
+    {
+        horizontalInput = Input.GetAxisRaw("Horizontal");
+        verticalInput = Input.GetAxisRaw("Vertical");
+
+        if(Input.GetKey(jumpKey) && readyToJump && grounded)
+        {
+            readyToJump = false;
+
+            Jump();
+
+            Invoke(nameof(ResetJump), jumpCooldown);
+
         }
 
-        float x = Input.GetAxis("Horizontal");
-        float z = Input.GetAxis("Vertical");
-
-        //right is the red Axis, foward is the blue axis
-        Vector3 move = transform.right * x + transform.forward * z;
-
-        controller.Move(move * speed * Time.deltaTime);
-
-        //check if the player is on the ground so he can jump
-        if (Input.GetButtonDown("Jump") && isGrounded)
+        if (Input.GetKeyDown(crouchKey))
         {
-            //the equation for jumping
-            velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
+            transform.localScale = new Vector3(transform.localScale.x, crouchYScale, transform.localScale.z);
+            rb.AddForce(Vector3.down *5f,ForceMode.Impulse);
         }
 
-        if (Input.GetKeyDown(KeyCode.LeftShift))
+        if(Input.GetKeyUp(crouchKey))
         {
-            speed *= sprintMul;
+            transform.localScale = new Vector3(transform.localScale.x, startYScale, transform.localScale.z);
         }
-        if (Input.GetKeyUp(KeyCode.LeftShift))
+    }
+
+    private void MoverPlayer()
+    {
+        moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
+
+        if (grounded)
         {
-            speed /= sprintMul;
+            rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
         }
+        else if(!grounded)
+        {
+            rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
+        }
+    }
 
-        velocity.y += gravity * Time.deltaTime;
+    private void SpeedControl()
+    {
+        Vector3 flatVel = new Vector3(rb.velocity.x,0f,rb.velocity.z);
 
-        controller.Move(velocity * Time.deltaTime);
+        if (flatVel.magnitude > moveSpeed)
+        {
+            Vector3 limitedVel = flatVel.normalized * moveSpeed;
+            rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
+        }
+    }
+
+    private void Jump()
+    {
+        rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+
+        rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
+        
+    }
+
+    private void ResetJump()
+    {
+        readyToJump = true;
     }
 }
