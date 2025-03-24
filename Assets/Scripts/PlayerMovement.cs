@@ -9,6 +9,10 @@ public class PlayerMovement : MonoBehaviour
     public float groundDrag;
     public float sprintSpeed;
     public float walkSpeed;
+    public float slideSpeed;
+
+    private float desiredMoveSpeed;
+    private float lastDesiredMoveSpeed;
 
     [Header("Jumping")]
     public float jumpForce;
@@ -31,11 +35,18 @@ public class PlayerMovement : MonoBehaviour
     public LayerMask WhatIsGround;
     bool grounded;
 
-    
+    [Header("Slope handling")]
+    public float maxSlopeAngle;
+    private RaycastHit slopeHit;
+    private bool exitingSlope;
 
     public Transform orientation;
     float horizontalInput;
     float verticalInput;
+
+    public bool isRunning;
+    public bool isCrouching;
+    public bool inLight;
 
     Vector3 moveDirection;
     Rigidbody rb;
@@ -45,37 +56,59 @@ public class PlayerMovement : MonoBehaviour
     {
         walking,
         sprinting,
+        sliding,
         crouching,
         air
     }
 
+    public bool sliding;
+
     private void StateHandler()
     {
-        if (Input.GetKey(crouchKey))
+        if(sliding)
+        {
+            state = MovementState.sliding;
+            desiredMoveSpeed = slideSpeed;
+        }
+        else if (Input.GetKey(crouchKey))
         {
             state = MovementState.crouching;
-            moveSpeed = crouchSpeed;
+            desiredMoveSpeed = crouchSpeed;
+            isCrouching = true;
+            isRunning = false;
         }
         else if(grounded && Input.GetKey(sprintKey))
         {
             state = MovementState.sprinting;
-            moveSpeed = sprintSpeed;
+            desiredMoveSpeed = sprintSpeed;
+            isCrouching = false;
+            isRunning = true;
         }
         else if(grounded)
         {
             state = MovementState.walking;
-            moveSpeed = walkSpeed;
+            desiredMoveSpeed = walkSpeed;
+            isCrouching = false;
+            isRunning = false;
         }
         else
         {
             state = MovementState.air;
         }
+
+        
+        moveSpeed = desiredMoveSpeed;
+     
+
+        lastDesiredMoveSpeed = desiredMoveSpeed;
     }
 
     private void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.freezeRotation = true;
+
+     
 
         startYScale = transform.localScale.y;
     }
@@ -86,6 +119,7 @@ public class PlayerMovement : MonoBehaviour
         MyInput();
         SpeedControl();
         StateHandler();
+        CheckIfInLight();
 
         if (grounded)
         {
@@ -101,7 +135,7 @@ public class PlayerMovement : MonoBehaviour
 
     private void FixedUpdate()
     {
-        MoverPlayer();
+        MovePlayer();
     }
 
     private void MyInput()
@@ -131,33 +165,59 @@ public class PlayerMovement : MonoBehaviour
         }
     }
 
-    private void MoverPlayer()
+    private void MovePlayer()
     {
         moveDirection = orientation.forward * verticalInput + orientation.right * horizontalInput;
 
-        if (grounded)
+        if (OnSlope() && !exitingSlope)
         {
+            rb.AddForce(GetSlopeMoveDirection(moveDirection) * moveSpeed * 20f, ForceMode.Force);
+
+            if(rb.velocity.y > 0)
+            {
+                rb.AddForce(Vector3.down * 80f, ForceMode.Force);
+            }
+        }
+
+        else if (grounded)
+        {
+           
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f, ForceMode.Force);
+
         }
         else if(!grounded)
         {
             rb.AddForce(moveDirection.normalized * moveSpeed * 10f * airMultiplier, ForceMode.Force);
         }
+
+        rb.useGravity = !OnSlope();
     }
 
+    
     private void SpeedControl()
     {
-        Vector3 flatVel = new Vector3(rb.velocity.x,0f,rb.velocity.z);
-
-        if (flatVel.magnitude > moveSpeed)
+        if (OnSlope()&&!exitingSlope)
         {
-            Vector3 limitedVel = flatVel.normalized * moveSpeed;
-            rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
+            if (rb.velocity.magnitude > moveSpeed)
+            {
+                rb.velocity = rb.velocity.normalized * moveSpeed;
+            }
+        }
+        else
+        {
+            Vector3 flatVel = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
+
+            if (flatVel.magnitude > moveSpeed)
+            {
+                Vector3 limitedVel = flatVel.normalized * moveSpeed;
+                rb.velocity = new Vector3(limitedVel.x, rb.velocity.y, limitedVel.z);
+            }
         }
     }
 
     private void Jump()
     {
+        exitingSlope = true;
         rb.velocity = new Vector3(rb.velocity.x, 0f, rb.velocity.z);
 
         rb.AddForce(transform.up * jumpForce, ForceMode.Impulse);
@@ -167,5 +227,96 @@ public class PlayerMovement : MonoBehaviour
     private void ResetJump()
     {
         readyToJump = true;
+        exitingSlope = false;
     }
+
+    public bool OnSlope()
+    {
+        if(Physics.Raycast(transform.position, Vector3.down,out slopeHit, playerHeight * 0.5f + 0.3f))
+        {
+            float angle = Vector3.Angle(Vector3.up, slopeHit.normal);
+            return angle < maxSlopeAngle && angle !=0;  
+        }
+
+        return false;
+    }
+
+    public Vector3 GetSlopeMoveDirection(Vector3 direction)
+    {
+        return Vector3.ProjectOnPlane(direction,slopeHit.normal).normalized;
+    }
+
+    public void CheckIfInLight()
+    {
+        inLight = false; // Assume not in light
+
+        RaycastHit hit;
+
+        // Iterate through all spotlights in the scene
+        foreach (Light spotlight in FindObjectsOfType<Light>())
+        {
+            if (spotlight.type == LightType.Spot)
+            {
+                Vector3 lightPosition = spotlight.transform.position;
+                Vector3 directionToPlayer = transform.position - lightPosition; // Vector from light to player
+
+                // Calculate the angle between the light's forward vector and the direction to the player
+                float angleToPlayer = Vector3.Angle(spotlight.transform.forward, directionToPlayer);
+
+                // Debug the angle to player
+                //Debug.Log("Angle to Player: " + angleToPlayer);
+
+                // If the player is within the spotlight's angle cone
+                if (angleToPlayer <= spotlight.spotAngle / 2f)
+                {
+                    // Check distance to ensure the player is within the spotlight's range
+                    float distanceToPlayer = directionToPlayer.magnitude;
+                    if (distanceToPlayer <= spotlight.range)
+                    {
+                        // Debug the distance to player
+                        //Debug.Log("Player within light cone! Distance: " + distanceToPlayer);
+
+                        // Perform the raycast to check if the player is in the light
+                        if (Physics.Raycast(lightPosition, directionToPlayer.normalized, out hit, spotlight.range))
+                        {
+                            if (hit.collider.CompareTag("Player"))
+                            {
+                                inLight = true;
+                                //Debug.Log("Player is in light!");
+                                Debug.DrawRay(lightPosition, directionToPlayer.normalized * hit.distance, Color.yellow, 0.5f);
+                                return; // Stop checking after detecting the player
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+
+
+
+    private void OnDrawGizmos()
+    {
+        Gizmos.color = Color.red;
+
+        foreach (Light spotlight in FindObjectsOfType<Light>())
+        {
+            if (spotlight.type == LightType.Spot)
+            {
+                Vector3 lightPosition = spotlight.transform.position;
+                float coneRadius = spotlight.range * Mathf.Tan(spotlight.spotAngle * 0.5f * Mathf.Deg2Rad);
+
+                // Draw cone (using a sphere for simplicity)
+                Gizmos.DrawWireSphere(lightPosition + spotlight.transform.forward * spotlight.range, coneRadius);
+            }
+        }
+    }
+
+
+
+
 }
+
+

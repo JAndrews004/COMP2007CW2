@@ -7,11 +7,19 @@
       "RelativeMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|c:\\users\\ja990\\onedrive\\documents\\uni\\comp2007\\cw2\\cw2-postman game\\assets\\scripts\\movecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|c:\\users\\ja990\\onedrive\\documents\\uni\\comp2007\\cw2\\cw2-postman game\\assets\\scripts\\monsterai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\monsterai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\assets\\scripts\\sliding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\sliding.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\assets\\scripts\\movecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movecamera.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|c:\\users\\ja990\\onedrive\\documents\\uni\\comp2007\\cw2\\cw2-postman game\\assets\\scripts\\mousemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\assets\\scripts\\mousemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{74C10AE2-F41E-0851-04DA-A11965173366}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\mousemovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -22,7 +30,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Bookmark",
@@ -39,6 +47,31 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "MonsterAI.cs",
+              "DocumentMoniker": "C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\Assets\\Scripts\\MonsterAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\MonsterAI.cs",
+              "ToolTip": "C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\Assets\\Scripts\\MonsterAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\MonsterAI.cs",
+              "ViewState": "AgIAAHEAAAAAAAAAAAAuwH4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T14:17:34.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Sliding.cs",
+              "DocumentMoniker": "C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\Assets\\Scripts\\Sliding.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Sliding.cs",
+              "ToolTip": "C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\Assets\\Scripts\\Sliding.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Sliding.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB0AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-16T13:52:02.175Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "MoveCamera.cs",
               "DocumentMoniker": "C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\Assets\\Scripts\\MoveCamera.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MoveCamera.cs",
@@ -46,12 +79,11 @@
               "RelativeToolTip": "Assets\\Scripts\\MoveCamera.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-15T14:04:25.125Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-15T14:04:25.125Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "MouseMovement.cs",
               "DocumentMoniker": "C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\Assets\\Scripts\\MouseMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\MouseMovement.cs",
@@ -59,8 +91,7 @@
               "RelativeToolTip": "Assets\\Scripts\\MouseMovement.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-14T16:38:33.658Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-14T16:38:33.658Z"
             },
             {
               "$type": "Document",
@@ -68,9 +99,9 @@
               "Title": "PlayerMovement.cs",
               "DocumentMoniker": "C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\Assets\\Scripts\\PlayerMovement.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
-              "ToolTip": "C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\Assets\\Scripts\\PlayerMovement.cs*",
-              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs*",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAQAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ja990\\OneDrive\\Documents\\UNI\\COMP2007\\CW2\\CW2-postman game\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAQwDkAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-14T16:33:24.987Z",
               "EditorCaption": ""
