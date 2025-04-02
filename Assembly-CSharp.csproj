@@ -61,7 +61,9 @@
     <Compile Include="Assets\Scripts\MonsterAI.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\Scripts\Sliding.cs" />
+    <Compile Include="Assets\Scripts\ObjectiveManager.cs" />
     <Compile Include="Assets\Scripts\MoveCamera.cs" />
+    <Compile Include="Assets\Scripts\Objectives.cs" />
     <Compile Include="Assets\Scripts\MouseMovement.cs" />
   </ItemGroup>
   <ItemGroup>
