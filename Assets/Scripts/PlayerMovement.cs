@@ -270,7 +270,7 @@ public class PlayerMovement : MonoBehaviour
                 if (angleToPlayer <= spotlight.spotAngle / 2f)
                 {
                     // Check distance to ensure the player is within the spotlight's range
-                    float distanceToPlayer = directionToPlayer.magnitude;
+                    float distanceToPlayer = directionToPlayer.magnitude -1.8f;
                     if (distanceToPlayer <= spotlight.range)
                     {
                         // Debug the distance to player
@@ -306,7 +306,7 @@ public class PlayerMovement : MonoBehaviour
             if (spotlight.type == LightType.Spot)
             {
                 Vector3 lightPosition = spotlight.transform.position;
-                float coneRadius = spotlight.range * Mathf.Tan(spotlight.spotAngle * 0.5f * Mathf.Deg2Rad);
+                float coneRadius = spotlight.range * Mathf.Tan(spotlight.spotAngle * 0.5f * Mathf.Deg2Rad)-1.8f;
 
                 // Draw cone (using a sphere for simplicity)
                 Gizmos.DrawWireSphere(lightPosition + spotlight.transform.forward * spotlight.range, coneRadius);
