@@ -1,0 +1,534 @@
+﻿{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1746366024435713, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366024436703, "dur": 20826, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366024457743, "dur": 73048, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366024530805, "dur": 20580, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366028869653, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366028869832, "dur": 1834, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366028871667, "dur": 133990, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366029005658, "dur": 6283, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366089992939, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366089992956, "dur": 17972, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366090010930, "dur": 64566, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366090075497, "dur": 13517, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366093768737, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366093768760, "dur": 8884, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366093777647, "dur": 132596, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366093910245, "dur": 8316, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366325690713, "dur": 922337203685477580, "ph": "X", "name": "Build ScriptAssemblies", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366325690733, "dur": 11184, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366325701918, "dur": 62986, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366325764906, "dur": 11380, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366329516519, "dur": 922337203685477580, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366329516529, "dur": 2156, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366329518687, "dur": 26346, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366329545129, "dur": 180532, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366329725663, "dur": 172348, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366329898013, "dur": 818, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366329899273, "dur": 36, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1746366329630812, "dur": 82301, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1746366329631599, "dur": 33355, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1746366329701264, "dur": 3558, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1746366329704824, "dur": 8285, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1746366329705328, "dur": 7209, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1746366329716503, "dur": 958, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1746366329715939, "dur": 1537, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366329899381, "dur": 271, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1746366329754929, "dur":993, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329755926, "dur":28, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1746366329755961, "dur":10, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1746366329755973, "dur":626, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1746366329756632, "dur":429, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329757061, "dur":0, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889347, "dur":154, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889501, "dur":82, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889583, "dur":5, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889588, "dur":22, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889610, "dur":3, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889613, "dur":10, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889623, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889625, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889634, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889636, "dur":9, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889645, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889647, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889660, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889662, "dur":11, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889673, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889675, "dur":14, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889689, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889691, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889704, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889705, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889718, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889720, "dur":12, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889732, "dur":2, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889734, "dur":13, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889747, "dur":1, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889767, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329889769, "dur":1236, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1746366329756561, "dur":512, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329757080, "dur":4653, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329761746, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1746366329761749, "dur":115, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329761866, "dur":2, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1746366329761871, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329762690, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1746366329763932, "dur":74, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1746366329764008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329765618, "dur":1362, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1746366329767018, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1746366329767098, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329767102, "dur":2460, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1746366329769617, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329769665, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329782444, "dur":13266, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329795758, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329795796, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329795802, "dur":17096, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329812955, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329813024, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329813032, "dur":7831, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329820943, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329821010, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329821016, "dur":6530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329827604, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329827664, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329827670, "dur":6786, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329834512, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329834570, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329834576, "dur":9059, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329843668, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329843703, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329843707, "dur":4227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329847988, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329848031, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329848036, "dur":4857, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329852968, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329853027, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329853033, "dur":4782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":1, "ts":1746366329857875, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1746366329858306, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1746366329858312, "dur":4682, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":1, "ts":1746366329863054, "dur":26291, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329756611, "dur":483, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329757095, "dur":4643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329761747, "dur":146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1746366329761896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329764277, "dur":793, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1746366329765104, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1746366329765173, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329765682, "dur":1531, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1746366329767265, "dur":115, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329767387, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329768173, "dur":1648, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329769860, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329769894, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329782488, "dur":13474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329796028, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329796093, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329796100, "dur":17055, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329813214, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329813274, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329813281, "dur":8188, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329821521, "dur":58, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329821582, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329821588, "dur":7253, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329828889, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329828942, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329828948, "dur":9635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329838681, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329838720, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329838724, "dur":6589, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329845363, "dur":459, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329845825, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329845831, "dur":4078, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329849958, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329850018, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329850024, "dur":4143, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329854221, "dur":205, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329854429, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329854436, "dur":4383, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1746366329858875, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1746366329858928, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1746366329858934, "dur":4626, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1746366329863628, "dur":25714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329756595, "dur":490, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329757085, "dur":4655, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329761746, "dur":165, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1746366329761915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329765270, "dur":1360, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":3, "ts":1746366329766666, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1746366329766731, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329766841, "dur":2001, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":3, "ts":1746366329768896, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329768963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329781624, "dur":1314, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329782986, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329783030, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329791577, "dur":13511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329805145, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329805209, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329805215, "dur":11193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329816465, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329816512, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329816518, "dur":7778, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329824351, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329824408, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329824414, "dur":6046, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329830522, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329830579, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329830586, "dur":11678, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329842315, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329842368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329842375, "dur":4308, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329846736, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329846774, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329846778, "dur":3964, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329850795, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329850850, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329850854, "dur":5437, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":3, "ts":1746366329856353, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1746366329856419, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329856425, "dur":4354, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets1.assets" }}
+,{ "pid":12345, "tid":3, "ts":1746366329860836, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1746366329860892, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1746366329860897, "dur":4052, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/level0" }}
+,{ "pid":12345, "tid":3, "ts":1746366329864997, "dur":24391, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329756921, "dur":240, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329757161, "dur":4598, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329761768, "dur":169, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1746366329761968, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329764665, "dur":2146, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1746366329766849, "dur":100, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1746366329766952, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329766958, "dur":2276, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1746366329769303, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329769352, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329782170, "dur":10060, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329792281, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329792349, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329792383, "dur":13318, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329805758, "dur":324, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329806085, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329806089, "dur":13441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329819585, "dur":63, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329819650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329819688, "dur":7064, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329826795, "dur":48, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329826846, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329826852, "dur":7049, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329833957, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329834021, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329834028, "dur":9252, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329843318, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329843362, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329843368, "dur":4058, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329847487, "dur":72, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329847563, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329847586, "dur":4007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329851624, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329851658, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329851662, "dur":4959, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1746366329856720, "dur":62, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1746366329856785, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1746366329856790, "dur":11100, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":4, "ts":1746366329867942, "dur":21418, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329756954, "dur":215, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329757169, "dur":4578, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329761756, "dur":145, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1746366329761904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329764728, "dur":2462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1746366329767246, "dur":90, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1746366329767339, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329767346, "dur":2224, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":5, "ts":1746366329769604, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329769644, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329782477, "dur":13309, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329795843, "dur":59, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329795905, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329795909, "dur":17024, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329813000, "dur":66, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329813069, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329813075, "dur":7995, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329821119, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329821173, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329821180, "dur":6601, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329827838, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329827884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329827889, "dur":6674, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329834598, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329834633, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329834638, "dur":9477, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329844165, "dur":167, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329844335, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329844342, "dur":4321, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329848708, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329848755, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329848760, "dur":4408, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329853207, "dur":42, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329853252, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329853255, "dur":4899, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":5, "ts":1746366329858212, "dur":199, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1746366329858415, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329858423, "dur":3007, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":5, "ts":1746366329861492, "dur":86, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1746366329861581, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1746366329861587, "dur":3506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":5, "ts":1746366329865146, "dur":24233, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329756708, "dur":401, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329757109, "dur":4636, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329761746, "dur":225, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1746366329761973, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329764955, "dur":2588, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1746366329767581, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329767648, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329768236, "dur":42227, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329810503, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329810544, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329810595, "dur":8939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UaaLAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329819590, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329819650, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329819693, "dur":7221, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329826967, "dur":116, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329827113, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329827120, "dur":7132, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329834308, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329834364, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329834370, "dur":9117, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329843528, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329843573, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329843577, "dur":4119, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329847729, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329847764, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329847769, "dur":4339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329852159, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329852217, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329852222, "dur":4212, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":6, "ts":1746366329856503, "dur":78, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1746366329856584, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1746366329856591, "dur":32663, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets0.resource" }}
+,{ "pid":12345, "tid":6, "ts":1746366329889300, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":6, "ts":1746366329889301, "dur":1, "ph":"X", "name": "OutputFilesMissingFor",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329756752, "dur":366, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329757119, "dur":4714, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329761840, "dur":138, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1746366329761981, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329765400, "dur":1773, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":7, "ts":1746366329767230, "dur":128, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1746366329767361, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329767390, "dur":2236, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":7, "ts":1746366329769686, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329769743, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329782553, "dur":13526, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329796135, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329796198, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329796205, "dur":17506, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329813754, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329813803, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329813808, "dur":7937, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329821800, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329821874, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329821880, "dur":7063, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329829011, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329829074, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329829081, "dur":9731, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329838846, "dur":39, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329838887, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329838893, "dur":6168, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329845119, "dur":344, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329845466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329845473, "dur":3712, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329849221, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329849255, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329849275, "dur":4614, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329853937, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329853985, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329853990, "dur":5280, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":7, "ts":1746366329859321, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1746366329859391, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":7, "ts":1746366329859396, "dur":4852, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/level0.resS" }}
+,{ "pid":12345, "tid":7, "ts":1746366329864343, "dur":25083, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329756780, "dur":347, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329757127, "dur":4691, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329761829, "dur":149, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1746366329761982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329765417, "dur":2495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":8, "ts":1746366329767947, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1746366329768021, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329768026, "dur":17994, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":8, "ts":1746366329786076, "dur":38, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329786117, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329791583, "dur":13699, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329805336, "dur":64, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329805403, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329805410, "dur":13836, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329819305, "dur":80, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329819388, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329819395, "dur":5517, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329824943, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329824977, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329824981, "dur":7988, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329833018, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329833068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329833075, "dur":9509, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329842633, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329842693, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329842700, "dur":4400, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329847132, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329847184, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329847190, "dur":5187, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329852468, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329852527, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329852531, "dur":5155, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":8, "ts":1746366329857737, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1746366329857797, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329857804, "dur":3939, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":8, "ts":1746366329861894, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1746366329862044, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":8, "ts":1746366329862052, "dur":2488, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":8, "ts":1746366329864595, "dur":24803, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329756812, "dur":324, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329757136, "dur":4665, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329761813, "dur":125, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1746366329761988, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329765538, "dur":2520, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":9, "ts":1746366329768114, "dur":47, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game.exe" }}
+,{ "pid":12345, "tid":9, "ts":1746366329768163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329768166, "dur":1909, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game.exe" }}
+,{ "pid":12345, "tid":9, "ts":1746366329770105, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329770139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329782584, "dur":13619, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329796262, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329796300, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329796304, "dur":17313, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329813672, "dur":45, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329813719, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329813724, "dur":7972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329821783, "dur":67, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329821854, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329821861, "dur":7594, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329829515, "dur":54, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329829572, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329829576, "dur":9607, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329839234, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329839293, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329839300, "dur":6433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329845784, "dur":300, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329846088, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329846094, "dur":3819, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329849947, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329849982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329849989, "dur":4339, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":9, "ts":1746366329854362, "dur":33, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1746366329854397, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329854443, "dur":1388, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":9, "ts":1746366329855907, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1746366329855966, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":9, "ts":1746366329855972, "dur":15217, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets1.assets.resS" }}
+,{ "pid":12345, "tid":9, "ts":1746366329871223, "dur":18127, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329756854, "dur":289, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329757144, "dur":4643, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329761796, "dur":224, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1746366329762022, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329767405, "dur":1480, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":10, "ts":1746366329768941, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329769005, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329781591, "dur":1241, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329782881, "dur":41, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329782925, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329791496, "dur":13322, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329804886, "dur":93, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329804982, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329804990, "dur":11070, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329816118, "dur":71, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329816193, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329816200, "dur":7968, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329824237, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329824296, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329824302, "dur":6173, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329830527, "dur":51, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329830581, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329830588, "dur":9172, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329839823, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329839882, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329839888, "dur":6287, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329846249, "dur":428, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329846681, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329846687, "dur":4028, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329850769, "dur":53, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329850825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329850831, "dur":4148, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":10, "ts":1746366329855022, "dur":65, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1746366329855090, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329855096, "dur":4093, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/sharedassets1.resource" }}
+,{ "pid":12345, "tid":10, "ts":1746366329859244, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1746366329859303, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":10, "ts":1746366329859308, "dur":5021, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/level1" }}
+,{ "pid":12345, "tid":10, "ts":1746366329864388, "dur":25022, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746366329756894, "dur":258, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746366329757153, "dur":4621, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746366329761785, "dur":158, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1746366329761990, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746366329765375, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":11, "ts":1746366329767772, "dur":89, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746366329767863, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746366329767869, "dur":75654, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746366329843574, "dur":37, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746366329843613, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746366329843617, "dur":4394, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746366329848043, "dur":31, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746366329848076, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746366329848080, "dur":4868, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746366329853001, "dur":55, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746366329853059, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746366329853066, "dur":4791, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":11, "ts":1746366329858372, "dur":69, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1746366329858466, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":11, "ts":1746366329858620, "dur":4840, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":11, "ts":1746366329863511, "dur":25832, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329756644, "dur":461, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329757105, "dur":4765, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329761870, "dur":136, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1746366329762008, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329765986, "dur":2671, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":12, "ts":1746366329768709, "dur":79, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1746366329768790, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329769380, "dur":35277, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":12, "ts":1746366329804728, "dur":70, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329804802, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329804811, "dur":10782, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329815633, "dur":34, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329815669, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329815673, "dur":6329, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329822039, "dur":46, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329822088, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329822095, "dur":7382, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329829530, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329829590, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329829596, "dur":9433, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329839083, "dur":52, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329839138, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329839175, "dur":6427, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329845639, "dur":43, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329845703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329845710, "dur":3551, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329849301, "dur":35, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329849338, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329849342, "dur":4499, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329853897, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329853950, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329853954, "dur":8118, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":12, "ts":1746366329862128, "dur":271, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1746366329862402, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":12, "ts":1746366329862443, "dur":2828, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/ja990/OneDrive/Documents/UNI/COMP2007/CW2 build/CW2-postman game_Data/boot.config" }}
+,{ "pid":12345, "tid":12, "ts":1746366329865324, "dur":24046, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1746366329892254, "dur":1321, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1746366329899731, "dur": 600, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1746366329899262, "dur": 1087, "ph": "X", "name": "Write chrome-trace events", "args": {} },
