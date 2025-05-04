@@ -1,13 +1,14 @@
 using UnityEngine;
-using UnityEngine.UI;
+using TMPro;
 
 public class ObjectiveManager : MonoBehaviour
 {
-    public static ObjectiveManager Instance; // Singleton for easy access
+    public static ObjectiveManager Instance;
     public int totalObjectives = 20; // Set this based on level requirements
     private int completedObjectives = 0;
 
-    public Text objectiveText; // Assign a UI Text in Inspector
+    public TMP_Text objectiveText; // Assign a UI Text in Inspector
+    public GameObject WinUI;
 
     void Awake()
     {
@@ -38,7 +39,10 @@ public class ObjectiveManager : MonoBehaviour
 
     void LevelComplete()
     {
-        Debug.Log("Level Completed!");
-        // Add logic to transition to the next level or display a win screen
+        WinUI.SetActive(true);
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+        Time.timeScale = 0f;
+
     }
 }

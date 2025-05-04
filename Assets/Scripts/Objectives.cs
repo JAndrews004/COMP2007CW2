@@ -11,9 +11,14 @@ public class Objectives : MonoBehaviour
 
     public Slider progressBar; // Assign in Inspector
     public GameObject promptUI; // Assign a "Press E" UI element
+    public GameObject handle;
+    public AudioClip soundClip;
+    private AudioSource audioSource;
 
     void Start()
     {
+        audioSource = GetComponent<AudioSource>();
+        audioSource.spatialBlend = 1f; // Makes the sound 3D
         if (progressBar != null)
         {
             progressBar.gameObject.SetActive(false);
@@ -62,13 +67,29 @@ public class Objectives : MonoBehaviour
         }
     }
 
-    void CompleteObjective()
+    public void CompleteObjective()
     {
         if (isCompleted) return;
 
         isCompleted = true;
         ObjectiveManager.Instance.CompleteObjective(); // Update global tracker
-        gameObject.SetActive(false); // Hide the object after completion
+
+        // Play animation
+        Animator animator = GetComponent<Animator>();
+        if (animator != null)
+        {
+            animator.SetTrigger("PlayCompleteAnimation"); // Replace with your animation's actual name
+            audioSource.PlayOneShot(soundClip);
+        }
+        else
+        {
+            Debug.LogWarning("No Animator found on " + gameObject.name);
+        }
+
+        // Move the object to a new position (example position, customize as needed)
+        handle.transform.position = new Vector3(0.742f, 3.862f, -0.5541f); // Set to whatever position you want
+        handle.transform.rotation = Quaternion.Euler(new Vector3(-90, 90, 90));
+        // Hide UI elements
         if (progressBar != null) progressBar.gameObject.SetActive(false);
         if (promptUI != null) promptUI.SetActive(false);
     }
